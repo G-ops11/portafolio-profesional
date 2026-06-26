@@ -1,19 +1,44 @@
-body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-line-height: 1.6;
-background-color: #f4f7f6;
-color: #333;
-padding: 20px;
+/* Estilos generales */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
 }
-header {
-background: #1a365d;
-color: #fff;
-padding: 20px;
-border-radius: 8px;
-text-align: center;
+
+/* Encabezado */
+header{
+    background-color: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
 }
-h2 {
-color: #1a365d;
-border-bottom: 2px solid #1a365d;
-padding-bottom: 5px;
+
+/* Secciones */
+section{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Títulos */
+h2{
+    color: #1e3c72;
+}
+
+/* Lista */
+ul{
+    padding-left: 20px;
+}
+
+li{
+    margin: 10px 0;
+}
+
+/* Párrafos */
+p{
+    color: #555;
 }
